@@ -1,7 +1,7 @@
 # SpringBoot
 Content related to SpringBoot for quick access.
 
-For initialisation of SpringBoot project, use start.spring.io 
+For initialisation of SpringBoot project, use https://start.spring.io/
 
 For reference & guide, use https://docs.spring.io/spring-boot/docs/1.4.0.M3/reference/htmlsingle/#using-boot-using-springbootapplication-annotation
 
