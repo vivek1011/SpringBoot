@@ -7,6 +7,12 @@ For reference & guide, use https://docs.spring.io/spring-boot/docs/1.4.0.M3/refe
 
 Few points to keep in mind. 
 
-1.@SpringBootApplication is equivalent to using 3 annotations : @Configuration , @ComponentScan & @EnableAutoConfiguration
+* @SpringBootApplication is equivalent to using 3 annotations : @Configuration , @ComponentScan & @EnableAutoConfiguration
 
-2.Classes under the package (which consists of main class annotated with @SpringBootApplication) will be autoscanned. 
+* Classes under the package (which consists of main class annotated with @SpringBootApplication) will be autoscanned. 
+
+* Spring IoC Container gets initialised on the line : SpringApplication.run(App.class , args ) ; 
+
+* @Bean vs @Autowired
+  * @Bean is for registering your class bean into Spring Application Context. 
+  * @Autowired is for getting your class bean from Spring Application Context that was initialised at the time of @Bean.
