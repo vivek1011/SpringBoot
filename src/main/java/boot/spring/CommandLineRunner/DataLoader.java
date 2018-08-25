@@ -11,7 +11,7 @@ public class DataLoader implements CommandLineRunner{
             Load some data into memory ...
 
             This method will be executed just after application context is loaded
-            and right before the Spring Application Run method is completed.
+            and right before the SpringApplication.run method is completed.
         * */
     }
 }
