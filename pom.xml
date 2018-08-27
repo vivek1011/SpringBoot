@@ -6,7 +6,12 @@
 
     <groupId>boot.spring.example</groupId>
     <artifactId>SpringBoot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Spring-Boot-Main</module>
+        <module>Spring-Boot-DataJPA</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

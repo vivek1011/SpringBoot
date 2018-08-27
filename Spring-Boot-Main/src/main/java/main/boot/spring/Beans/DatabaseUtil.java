@@ -1,4 +1,4 @@
-package boot.spring.Beans;
+package main.boot.spring.Beans;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Make a pool of connections beforehand for fast querying over API at realtime.  
+ * Make a pool of connections beforehand for fast querying over API at realtime.
  * */
 
 @Service

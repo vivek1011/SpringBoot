@@ -1,4 +1,4 @@
-package boot.spring.StartupEndContext;
+package main.boot.spring.StartupEndContext;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

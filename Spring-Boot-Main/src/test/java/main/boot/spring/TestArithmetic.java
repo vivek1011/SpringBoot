@@ -1,4 +1,4 @@
-package boot.spring;
+package main.boot.spring;
 
 import org.junit.After;
 import org.junit.Before;
@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class TestArithmetic {
 
     @Before
-    public void beforeClass(){
+    public void beforeClass() {
         /*
         *  runs before every test beginning...
         * */
@@ -22,12 +22,13 @@ public class TestArithmetic {
 
     @Test
     public void testAddition() {
-        String a = "1"; String b = "1";
-        assertEquals(a ,b );
+        String a = "1";
+        String b = "1";
+        assertEquals(a, b);
     }
 
     @After
-    public void afterClass(){
+    public void afterClass() {
         /*runs after every test ending...
         * */
     }
