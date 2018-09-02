@@ -16,3 +16,9 @@ Few points to keep in mind.
 * @Bean vs @Autowired
   * @Bean is for registering your class bean into Spring Application Context. 
   * @Autowired is for getting your class bean from Spring Application Context that was initialised at the time of @Bean.
+
+* JpaRepository extends PagingAndSortingRepository which in turn extends CrudRepository.
+  * Their main functions are:
+	1. CrudRepository mainly provides CRUD functions.
+	2. PagingAndSortingRepository provides methods to do pagination and sorting records.
+* JpaRepository provides some JPA-related methods such as flushing the persistence context and deleting records in a batch.
